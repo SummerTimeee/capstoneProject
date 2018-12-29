@@ -13,8 +13,8 @@ ul.accordion{
 }
 ul.accordion li{
   float:right;
-  width:100px;
-  height:680px;
+  width:513px;
+  height:556px;
   display:inline-block;
   border-right:2px solid #fff;
   border-bottom:2px solid #fff;
@@ -59,7 +59,7 @@ ul.accordion li .description h2{
   font-weight:bold;
   letter-spacing:1px;
   font-size:45px;
-  color:#444;
+  color:rgb(10, 8, 8);
   text-align:left;
   margin:11px 0px 15px 20px;
   text-shadow:-1px -1px 1px #ccc;
@@ -111,4 +111,31 @@ and (-webkit-min-device-pixel-ratio: 2) {
       vertical-align: middle;
  
   }
+}
+ul.accordion li.bg1{
+    background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972);
+}
+ul.accordion li.bg2{
+    background-image:url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-spgray-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347735544);
+}
+ul.accordion li.bg3{
+    background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129);
+}
+ul.accordion li.bg4{
+    background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712);
+}
+ul.accordion li.bg5{
+    background-image:url(https://trademe.tmcdn.co.nz/photoserver/full/909042584.jpg);
+}
+ul.accordion li.bg6{
+    background-image:url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430090682);
+}
+ul.accordion li.bg7{
+    background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129);
+}
+ul.accordion li.bg8{
+    background-image:url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-rosegold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430147951);
+}
+ul.accordion li.bg9{
+    background-image:url(https://images-na.ssl-images-amazon.com/images/I/61nFOTQPzEL._SX569_.jpg);
 }
