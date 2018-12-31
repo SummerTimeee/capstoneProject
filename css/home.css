@@ -1,8 +1,3 @@
-body{
-    background-color: rgba(233, 229, 229, 0.973);
-    
-}
-
 .image-container{
     position: relative;
 }
@@ -135,62 +130,128 @@ display:block;
 @media screen and (max-height: 450px){
     .sidenav {padding-top: 15px;}
 }
-p{
-    font-size: 3.5em;
-    font-style: initial;
-    color: rgb(214, 23, 23);
+.header {
+    color: red;
+    float: right;
+    font-size: 3em;
+    font-family: 'Rakkas';
     text-align: right;
-    margin-bottom: -0.5%;
 }
-.content p {
-    font-size: 1.5em;
-    color: grey;
-    text-align: right;  
-}
-.stats h1{
-    text-align: left;
+
+#title {
     font-size: 3.5em;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
+    color: #565656;
+    font-weight: 400;
     line-height: 1.5em;
-    font-weight: 400;
-    background-image: url( https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg) ;
-    background-color: white;
-}
-.stats h3{
-    color: rgb(255, 0 ,0);
-}
-.stats h6{
-    color: rgb(128,128,128);
-}
-.stats p{
-    font-size: 1.5em;
-    font-weight: 400;
-    line-height: 2.5em;
-    color: rgb(51, 50, 48);
     text-align: left;
+    background-image: url( https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg) ;
+    padding-bottom: 20%;
 }
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
+/*changes h5 to blue*/
+#by{
+    color: rgb(0, 4, 255);;
+    font-size: 18px;
+}
+  
+  body {
+    font-family: Arial;
+    margin: auto;
+    background: #f3f3f3;
+  }
+  /*gives the paragraphs a unique font*/
+  #stats{
+      font-family:'Times New Roman', Times, serif;
+      font-size: 1.3em;
+      font-weight: inherit;
+      font-style: italic;
+  }
+/*gives about us a border*/
+  #about {
+      font-family: 'Abril Fatface';
+      text-align: center;
+      border: rgb(20, 18, 18);
+      border-style: groove;
+      border-radius: 5em;
+    }
+    .firstimg {
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrrF23IZwwHEBAWMyu7Dty5QJvZ4_HqBg7XMZRVwa0vKll87dO);
+      width: 0%;
+      height: 80%;
+      padding: 22px;
+      margin-right: 32px;
+    }
+  #fix{
+      color: red;
+      font-size: 2em;
+      font-weight: bold
+  }
+  #fancyp{
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 1.5em;
+  }
+  #fancyp2{
+      color: red;
+      font-size: 1.5em;
+  }
+  #app{
+    display:block !important ; 
+    position:absolute !important ;
+    float:left !important ;
+    font-family:arial !important ;
+    color:rgb(241, 18, 18)!important ;
+    text-decoration:none !important ;
+    width:100% !important ;
+    height:70px !important ;
+    text-align:center !important ;
+    }
+  
+    
+    h1 {
+        font-size: 50px;
+  }
+  .img3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMQvErwVkn2QN5LX7OGVmvvb32zHCZa_219NnLaCUd7VsP9FZn);
+    height: 600px;
+    width: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .leftcolumn {   
     float: left;
     width: 75%;
   }
+  
   /* Right column */
-.rightcolumn {
-    float: left;
-    width: 25%;
-    background-color: #d3c3c3;
-    padding-left: 20px;
+  .rightcolumn {
+    float: right;
+    width: 44%;
+    transform: translateY(-172%);
+    padding: 0 16px;
+    margin: 1458px -97px 40px 35px;
   }
-.card {
-    background-color: rgb(255, 253, 253);
+  .card {
+    background-color: white;
     padding: 20px;
-    margin-top: 5%;
-
-}
-.row:after {
+    margin-top: 17px;
+    margin-right: 25%;
+  }
+  .row:after {
     content: "";
     display: table;
     clear: both;
+    
   }
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }      
   
