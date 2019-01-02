@@ -1,3 +1,15 @@
+body {
+  margin: 0;
+  background: #f3f3f3;
+  overflow-x: hidden;
+  padding: 0%;
+}
+@media screen and (min-width: 1058px) {
+    body {
+        padding-left: 17px;
+        width: calc(100vw - 17px);
+    }
+}
 .image-container{
     position: relative;
 }
@@ -25,18 +37,17 @@
     background-position: center;
     background: url('https://accelerator-origin.kkomando.com/wp-content/uploads/2017/08/phone-repair.jpg');
     height: 350px;
-    width: 1210px;
+    width: 1241px;
 }
 
-ul
-{
+
+ul {
 margin:0px;
 padding:0px;
 list-style-type:none;
 -webkit-backface-visibility: hidden; backface-visibility: hidden;  
 }
-.var_nav
-{
+.var_nav {
 position:relative;
 background:#ccc; 
 width:300px;
@@ -44,8 +55,7 @@ height:70px;
 margin-bottom:5px;
 display: inline-block;
 }
-.link_bg
-{
+.link_bg {
  width:70px;
  height:70px;
  position:absolute;
@@ -53,28 +63,24 @@ display: inline-block;
  color:#fff;
  z-index:2;
 }
-.link_bg i
-{
+.link_bg i {
  position:relative;
 }
-.link_title
-{
+.link_title {
 display: inline;
 position:absolute;
 width:100%;
 z-index:3;
 color:#fff;
 }
-.link_title:hover .icon
-{
+.link_title:hover .icon {
 -webkit-transform:rotate(360deg);
 -moz-transform:rotate(360deg);
 -o-transform:rotate(360deg);
 -ms-transform:rotate(360deg);
 transform:rotate(360deg);  
 }
-.var_nav:hover .link_bg
-{
+.var_nav:hover .link_bg {
 width:100%;
 background:rgb(31, 30, 24);
 -webkit-transition: all 0.3s ease-in-out;
@@ -83,8 +89,7 @@ background:rgb(31, 30, 24);
 -ms-transition: all 0.3s ease-in-out;
 transition: all 0.3s ease-in-out;  
 }
-.var_nav:hover a
-{
+.var_nav:hover a {
 display: inline-block;
 font-weight:bold;
 -webkit-transition:all .5s ease-in-out;
@@ -120,8 +125,7 @@ width:100%;
 height:70px;
 text-align:center;
 }
-span
-{
+span {
 margin-top:25px;
 display:block;
 }
@@ -153,20 +157,15 @@ display:block;
     color: rgb(0, 4, 255);;
     font-size: 18px;
 }
+/*gives the paragraphs a unique font*/
+#stats{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    font-weight: inherit;
+    font-style: italic;
+}
   
-  body {
-    font-family: Arial;
-    margin: auto;
-    background: #f3f3f3;
-  }
-  /*gives the paragraphs a unique font*/
-  #stats{
-      font-family:'Times New Roman', Times, serif;
-      font-size: 1.3em;
-      font-weight: inherit;
-      font-style: italic;
-  }
-/*gives about us a border*/
+/*creates a rounded border*/
   #about {
       font-family: 'Abril Fatface';
       text-align: center;
@@ -181,11 +180,7 @@ display:block;
       padding: 22px;
       margin-right: 32px;
     }
-  #fix{
-      color: red;
-      font-size: 2em;
-      font-weight: bold
-  }
+    /*style the paragraphs in the right column*/
   #fancyp{
     font-family: 'Abril Fatface';
     font-style: normal;
@@ -193,33 +188,18 @@ display:block;
     font-weight: normal;
     line-height: 1.5em;
   }
-  #fancyp2{
+  /*give phrase a outstanding color of red */
+  #fix{
       color: red;
       font-size: 1.5em;
-  }
-  #app{
-    display:block !important ; 
-    position:absolute !important ;
-    float:left !important ;
-    font-family:arial !important ;
-    color:rgb(241, 18, 18)!important ;
-    text-decoration:none !important ;
-    width:100% !important ;
-    height:70px !important ;
-    text-align:center !important ;
-    }
+  } 
   
-    
+  .img3{
+   background-image: url(https://irp-cdn.multiscreensite.com/d708ae7e/dms3rep/multi/mobile/1-Logo_PhoneDoctor.png);
+
+  }
     h1 {
         font-size: 50px;
-  }
-  .img3{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMQvErwVkn2QN5LX7OGVmvvb32zHCZa_219NnLaCUd7VsP9FZn);
-    height: 600px;
-    width: 350px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
   }
   .leftcolumn {   
     float: left;
@@ -230,9 +210,9 @@ display:block;
   .rightcolumn {
     float: right;
     width: 44%;
-    transform: translateY(-172%);
-    padding: 0 16px;
-    margin: 1458px -97px 40px 35px;
+    transform: translateY(-181%);
+    padding: 0 0px;
+    margin: 50px -97px 40px 35px;
   }
   .card {
     background-color: white;
@@ -246,12 +226,21 @@ display:block;
     clear: both;
     
   }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px; 
+    transform: translateY(-690%);
+    letter-spacing: 2em;
+  }
 
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: -900px) {
     .leftcolumn, .rightcolumn {   
       width: 100%;
       padding: 0;
     }
-  }      
+  } 
+
   
