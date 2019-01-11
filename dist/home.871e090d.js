@@ -109,7 +109,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../.npm/_npx/5293/lib/node_modules/parcel/src/builtins/css-loader.js"}],"../../.npm/_npx/5293/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../image/iphone for repair.png":[["iphone for repair.2644817e.png","image/iphone for repair.png"],"image/iphone for repair.png"],"_css_loader":"../../.npm/_npx/5293/lib/node_modules/parcel/src/builtins/css-loader.js"}],"../../.npm/_npx/5293/lib/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
