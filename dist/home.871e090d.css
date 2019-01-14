@@ -254,7 +254,7 @@ display:block;
     margin-top: 20px; 
     /*transform: translateY(-983%);*/
     letter-spacing: 2em;
-    background-color: #333;
+    background-color: WHITE;
 }
 .wrapper{
     padding: 5px;
@@ -271,6 +271,10 @@ display:block;
     width: 100%;
 
 
+}
+#underline {
+    text-decoration: underline;
+    font-weight: bold;
 }
  /*.img5 {
      background-image: url(https://media.mercola.com/assets/images/shop/low-price-badge.png);
