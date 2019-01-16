@@ -1,10 +1,32 @@
 body{
     background-color: #333;
 }
-h2 {
+h3 {
     text-align: center;
-    font-size: 2em;
+    font-family: Cambria, serif;
+    font-size: 3em;
+    color: #333;
+    border: #333;
+    border-style: solid;
+    width: 100%;
+  height: 50%;
+  letter-spacing: 0.5em;
+  background-color: white;
+  -webkit-animation-name: patients; 
+  -webkit-animation-duration: 4s; 
+  animation-name: patients;
+  animation-duration: infinite;
 }
+
+@-webkit-keyframes patients {
+    from {background-color: hotpink;}
+    to {background-color: yellow;}
+  }
+
+  @keyframes patients {
+    from {background-color: hotpink;}
+    to {background-color: yellow;}
+  }
 
 ul.accordion{
   list-style:none;   
@@ -75,7 +97,7 @@ ul.accordion li .description p{
   line-height:14px;
   margin:10px 22px;
   font-family: 'Rakkas';
-  font-size: 16px;
+  font-size: 22px;
   font-style: initial;
   font-weight: bold;
   text-transform: none;
