@@ -186,6 +186,7 @@ ul.accordion{
     font-style: italic;
     line-height: 1.5em;
     padding-top: 20%;
+    display: grid;
     top: 60%;
   }
   ul.accordion li{
