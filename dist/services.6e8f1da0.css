@@ -191,7 +191,7 @@ ul.accordion{
   }
   ul.accordion li{
     float:right;
-    width:80%;
+    width:90px;
     height:556px;
     display:inline-block;
     border-right:2px solid #fff;
