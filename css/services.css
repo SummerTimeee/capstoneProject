@@ -130,7 +130,7 @@ ul.accordion li .bgDescription{
   display:none;
 }
 
-@media only screen
+/*@media only screen
 and (min-device-width: 100%)
 and (max-device-width: 100%)
 and (-webkit-min-device-pixel-ratio: 2) {
@@ -142,7 +142,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       vertical-align: middle;
  
   }
-}
+}*/
 ul.accordion li.bg1{
     background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972);
 }
@@ -169,4 +169,10 @@ ul.accordion li.bg8{
 }
 ul.accordion li.bg9{
     background-image:url(https://images-na.ssl-images-amazon.com/images/I/61nFOTQPzEL._SX569_.jpg);
+}
+
+@media screen and (min-width: 500px) {
+h3{
+    font-size: 5em;
+}
 }
