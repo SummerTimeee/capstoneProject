@@ -208,7 +208,7 @@ display:block;
   }
 
   .leftcolumn {   
-    float: left;
+   float: left;
     width: 56%;
   }
   
@@ -228,16 +228,14 @@ display:block;
   .row {
     display: inline-block;
   }
-  /* .row:after {
+   .row:after {
     padding: 0;
     margin: 0;
-    list-style: none;
-    display: flex;
     
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
     
-  } */
+  } 
   .wrapper{
       padding: 5px;
       max-width: 960px;
@@ -285,6 +283,7 @@ display:block;
         #text {
             width: calc(100% - 34px) !important; 
         }
+    
     
     }
 
