@@ -276,11 +276,7 @@ display:block;
       /*transform: translateY(-983%);*/
     }
     @media screen and (min-width: 700px) {
-        body {
-            padding-left: 17px;
-            padding-right: 17px;
-        
-        }
+      
         #text {
             width: calc(100% - 34px) !important; 
         }
