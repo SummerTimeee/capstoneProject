@@ -240,7 +240,7 @@ display:block;
   .wrapper{
       padding: 5px;
       max-width: 960px;
-      width: 95%;
+      width: 100%;
       margin: 20px auto;
     }
     .img4 {
@@ -280,7 +280,152 @@ display:block;
         #text {
             width: calc(100% - 34px) !important; 
         }
-    
+        .header {
+            color: #333;
+            float: top;
+            font-size: 2.5em;
+            font-family: 'Rakkas';
+            text-align: right;
+            width: 100%;
+            padding-right: 1em;
+        }
+        
+        #title {
+            font-size: 3.5em;
+            font-family: 'Lato', sans-serif;
+            color: #565656;
+            font-weight: 400;
+            line-height: 1.5em;
+            text-align: left;
+            background-image: url( https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg) ;
+            padding-bottom: 20%;
+        }
+        /*changes h5 to blue*/
+        #by{
+            color: rgb(0, 4, 255);
+            font-size: 18px;
+        }
+        /*gives the paragraphs a unique font*/
+        #stats{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 1.3em;
+            font-weight: inherit;
+            font-style: italic;
+        }
+          
+        /*creates a rounded border*/
+          #about {
+              font-family: 'Abril Fatface';
+              text-align: center;
+              border: rgb(20, 18, 18);
+              border-style: groove;
+              border-radius: 5em;
+            }
+            .firstimg {
+              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrrF23IZwwHEBAWMyu7Dty5QJvZ4_HqBg7XMZRVwa0vKll87dO);
+              width: 100%;
+              height: 180%;
+              padding: 22px;
+              padding-bottom: 50%;
+              margin-right: 32px;
+              background-repeat: no-repeat;
+              background-position: center;
+            }
+            /*style the paragraphs in the right column*/
+          #fancyp{
+            font-family: 'Abril Fatface';
+            font-style: normal;
+            font-size: 1.3em;
+            font-weight: normal;
+            line-height: 1.5em;
+            color: #333;
+          }
+          /*give phrase a outstanding color of red */
+          #fix{
+              color: red;
+              font-size: 2em;
+              text-align: center;
+              line-height: 1.5em;
+          } 
+          
+          .img3{
+           background-image: url(https://irp-cdn.multiscreensite.com/d708ae7e/dms3rep/multi/mobile/1-Logo_PhoneDoctor.png);
+           height: 569px;
+            margin-left: -60px;
+            /* padding-right: 12%; */
+            /* width: 100%; */
+            background-repeat: no-repeat;
+            background-position: center;
+        
+          }
+        
+          .leftcolumn {   
+           float: left;
+            width: 56%;
+          }
+          
+          /* Right column */
+          .rightcolumn {
+            float: right;
+            width: 42.3%;
+            padding: 0 0px;
+            padding-left: 1.7%;
+            /*margin: 280px -97px 40px 35px;*/
+          }
+          .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 17px;
+          }
+          .row {
+            display: inline-block;
+          }
+           .row:after {
+            padding: 0;
+            margin: 0;
+            
+            -webkit-flex-flow: row wrap;
+            justify-content: space-around;
+            
+          } 
+          .wrapper{
+              padding: 5px;
+              max-width: 960px;
+              width: 100%;
+              margin: 20px auto;
+            }
+            .img4 {
+                background-image: url("iphone for repair.2644817e.png");
+                background-size: contain;  
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 450px;
+                width: 100%;
+                
+                
+            }
+            #underline {
+                text-decoration: underline;
+                font-weight: bold;
+            }
+            /*.img5 {
+                background-image: url(https://media.mercola.com/assets/images/shop/low-price-badge.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 150px;
+                width: 100%;
+                float: left;
+            }
+            */
+            
+            footer {
+              padding: -2px;
+              background-color: white;
+              text-align: center;
+              margin-top: 20px; 
+              /*transform: translateY(-983%);*/
+            }
     
     }
 
