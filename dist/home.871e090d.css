@@ -129,7 +129,6 @@ display:block;
     .sidenav {padding-top: 15px;}
 }
 .column-layout-container {
-    max-width: 900px;
     display: flex;
     margin: 0 auto;
 }
@@ -209,11 +208,11 @@ flex-direction: column;
       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrrF23IZwwHEBAWMyu7Dty5QJvZ4_HqBg7XMZRVwa0vKll87dO);
       width: 100%;
       height: 180%;
-      padding: 22px;
       padding-bottom: 20%;
       margin-right: 32px;
       background-repeat: no-repeat;
       background-position: center;
+      display: flex;
     }
     /*style the paragraphs in the right column*/
   #fancyp{
