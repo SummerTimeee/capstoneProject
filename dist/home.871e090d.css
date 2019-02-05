@@ -128,6 +128,41 @@ display:block;
 @media screen and (max-height: 0px){
     .sidenav {padding-top: 15px;}
 }
+.column-layout-container {
+    max-width: 900px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.first {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    
+}
+
+.second {
+display: flex;
+flex: 1;
+flex-direction: column;
+}
+.second-a {
+    flex: 1;
+    margin-bottom: 20px;
+    background-color: #fff;
+
+}
+.second-b {
+    background-color:#fff;
+    flex: 1;
+    margin-bottom: 20px;
+    
+}
+.second-c {
+    background-color: purple;
+    flex: 1;
+}
 
 .header {
     color: #333;
@@ -137,7 +172,7 @@ display:block;
     text-align: right;
     width: 100%;
     padding-right: 1em;
-}
+} 
 
 #title {
     font-size: 3.5em;
@@ -148,12 +183,12 @@ display:block;
     text-align: left;
     background-image: url( https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg) ;
     padding-bottom: 20%;
-}
+} */
 /*changes h5 to blue*/
 #by{
     color: rgb(0, 4, 255);
     font-size: 18px;
-}
+} */
 /*gives the paragraphs a unique font*/
 #stats{
     font-family:'Times New Roman', Times, serif;
@@ -175,7 +210,7 @@ display:block;
       width: 100%;
       height: 180%;
       padding: 22px;
-      padding-bottom: 50%;
+      padding-bottom: 20%;
       margin-right: 32px;
       background-repeat: no-repeat;
       background-position: center;
@@ -197,36 +232,35 @@ display:block;
       line-height: 1.5em;
   } 
   
-  .img3{
+  /*.img3{
    background-image: url(https://irp-cdn.multiscreensite.com/d708ae7e/dms3rep/multi/mobile/1-Logo_PhoneDoctor.png);
    height: 569px;
     margin-left: -60px;
     /* padding-right: 12%; */
     /* width: 100%; */
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;
     background-position: center;
 
   }
 
-  .leftcolumn {   
+  /*.leftcolumn {   
    float: left;
     width: 56%;
   }
   
   /* Right column */
-  .rightcolumn {
+  /*.rightcolumn {
     float: right;
     width: 42.3%;
     padding: 0 0px;
     padding-left: 1.7%;
     /*margin: 280px -97px 40px 35px;*/
-  }
-  .card {
+  /*.card {
     background-color: white;
     padding: 20px;
     margin-top: 17px;
-  }
-  .row {
+  }*/
+  /*.row {
     display: inline-block;
   }
    .row:after {
@@ -236,13 +270,13 @@ display:block;
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
     
-  } 
+  } */
   .wrapper{
       padding: 5px;
       max-width: 960px;
       width: 100%;
       margin: 20px auto;
-    }
+    } */
     .img4 {
         background-image: url("iphone for repair.2644817e.png");
         background-size: contain;  
@@ -268,14 +302,14 @@ display:block;
     }
     */
     
-    footer {
+    /*footer {
       padding: -2px;
       background-color: white;
       text-align: center;
       margin-top: 20px; 
-      /*transform: translateY(-983%);*/
+      /*transform: translateY(-983%);
     }
-    @media screen and (min-width: 600px) {
+    /*@media screen and (min-width: 600px) {
       
         #text {
             width: calc(100% - 34px) !important; 
@@ -290,31 +324,9 @@ display:block;
             padding-right: 1em;
         }
         
-        #title {
-            font-size: 3.5em;
-            font-family: 'Lato', sans-serif;
-            color: #565656;
-            font-weight: 400;
-            line-height: 1.5em;
-            text-align: left;
-            background-image: url( https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg) ;
-            padding-bottom: 20%;
-        }
-        /*changes h5 to blue*/
-        #by{
-            color: rgb(0, 4, 255);
-            font-size: 18px;
-        }
-        /*gives the paragraphs a unique font*/
-        #stats{
-            font-family:'Times New Roman', Times, serif;
-            font-size: 1.3em;
-            font-weight: inherit;
-            font-style: italic;
-        }
           
         /*creates a rounded border*/
-          #about {
+         /* #about {
               font-family: 'Abril Fatface';
               text-align: center;
               border: rgb(20, 18, 18);
@@ -332,7 +344,7 @@ display:block;
               background-position: center;
             }
             /*style the paragraphs in the right column*/
-          #fancyp{
+          /*#fancyp{
             font-family: 'Abril Fatface';
             font-style: normal;
             font-size: 1.3em;
@@ -341,7 +353,7 @@ display:block;
             color: #333;
           }
           /*give phrase a outstanding color of red */
-          #fix{
+         /* #fix{
               color: red;
               font-size: 2em;
               text-align: center;
@@ -353,26 +365,27 @@ display:block;
            height: 569px;
             margin-left: -60px;
             /* padding-right: 12%; */
-            /* width: 100%; */
+            /* width: 100%; 
             background-repeat: no-repeat;
             background-position: center;
         
           }
         
-          .leftcolumn {   
+          /*.leftcolumn {   
            float: left;
             width: 56%;
           }
           
           /* Right column */
-          .rightcolumn {
+          /*.rightcolumn {
             float: right;
             width: 42.3%;
             padding: 0 0px;
             padding-left: 1.7%;
-            /*margin: 280px -97px 40px 35px;*/
-          }
-          .card {
+            /*margin: 280px -97px 40px 35px;
+          }*/
+          
+          /*.card {
             background-color: white;
             padding: 20px;
             margin-top: 17px;
@@ -395,7 +408,7 @@ display:block;
               margin: 20px auto;
             }
             .img4 {
-                background-image: url("iphone for repair.2644817e.png");
+                background-image: url("../image/iphone for repair.png");
                 background-size: contain;  
                 background-repeat: no-repeat;
                 background-position: center;
@@ -419,14 +432,14 @@ display:block;
             }
             */
             
-            footer {
+           /* footer {
               padding: -2px;
               background-color: white;
               text-align: center;
               margin-top: 20px; 
-              /*transform: translateY(-983%);*/
+              /*transform: translateY(-983%);
             }
     
-    }
+    }*/
 
   
