@@ -229,18 +229,12 @@ flex-direction: column;
   } 
   
 
-  /*.wrapper{
-      padding: 5px;
-      max-width: 960px;
-      width: 100%;
-      margin: 20px auto;
-    } */
     .img4 {
     background-image: url(iphone for repair.2644817e.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 450px;
+    height: 250px;
     width: 100%;
     }
 
