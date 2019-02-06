@@ -131,6 +131,7 @@ display:block;
 .column-layout-container {
     display: flex;
     margin: 0 auto;
+    flex-direction: row;
 }
 
 .first {
@@ -230,7 +231,7 @@ flex-direction: column;
   
 
     .img4 {
-    height: 350px;
+    
     }
 
     #underline {
@@ -243,7 +244,6 @@ flex-direction: column;
       background-color: white;
       text-align: center;
       margin-top: 20px; 
-      display: flex;
    
     }
 
