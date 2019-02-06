@@ -230,7 +230,7 @@ flex-direction: column;
   
 
     .img4 {
-    background-image: url(../image/iphone for repair.png);
+    background-image: url(../image/iphoneforrepair.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -242,16 +242,6 @@ flex-direction: column;
         text-decoration: underline;
         font-weight: bold;
     }
-    /*.img5 {
-        background-image: url(https://media.mercola.com/assets/images/shop/low-price-badge.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 150px;
-        width: 100%;
-        float: left;
-    }
-    */
     
     .footer-container {
       padding: -2px;
@@ -299,8 +289,8 @@ flex-direction: column;
                 
             }
         }
-      /*transform: translateY(-983%);
-    }
+     
+
     /*@media screen and (min-width: 600px) {
       
         #text {
