@@ -230,12 +230,7 @@ flex-direction: column;
   
 
     .img4 {
-    background-image: url(../image/iphoneforrepair.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 250px;
-    width: 100%;
     }
 
     #underline {
