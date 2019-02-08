@@ -280,6 +280,7 @@ span {
     }
     .hero {
         position: relative;
+
     }
     #text {
         width: calc(100vw - 17px);
@@ -423,22 +424,21 @@ span {
         flex-direction: column;
         margin-right: -100%;
         margin-top: -35%;
+        margin-bottom: 39.5%;
     }
     .second-a {
         flex: 1;
-        margin-bottom: 20px;
         background-color: #fff;
         text-align: center;
     }
     .second-b {
         background-color: #fff;
         flex: 1;
-        margin-bottom: 20px;
     }
     .header {
         color: #333;
-        float: right;
-        font-size: 2.5em;
+        float: top;
+        font-size: 3.5em;
         font-family: 'Rakkas';
         text-align: right;
         width: 100%;
@@ -504,7 +504,7 @@ span {
         padding: -2px;
         background-color: white;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 20hpx;
         margin-right: -100%;
     }
 }
