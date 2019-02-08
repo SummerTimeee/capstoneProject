@@ -198,6 +198,8 @@ span {
     padding-right: 1em;
 }
 
+
+
 #title {
     font-size: 3.5em;
     font-family: 'Lato', sans-serif;
@@ -335,7 +337,6 @@ span {
     .link_title {
         display: inline;
         position: absolute;
-        width: 100%;
         z-index: 3;
         color: #fff;
     }
@@ -444,6 +445,16 @@ span {
         width: 100%;
         padding-right: 1em;
     }
+    h2{
+        font-size: 3.5em;
+    }
+    h3{
+        font-size: 3.5em;
+        border-radius: 9em;
+        border-style: groove;
+        border-color: black;
+        text-align: center;
+    }
     #title {
         font-size: 3.5em;
         font-family: 'Lato', sans-serif;
@@ -474,13 +485,12 @@ span {
         text-align: center;
         border: rgb(20, 18, 18);
         border-style: groove;
-        border-radius: 5em;
     }
     /*style the paragraphs in the right column*/
     #fancyp {
         font-family: 'Abril Fatface';
         font-style: normal;
-        font-size: 1.3em;
+        font-size: 2.3em;
         font-weight: normal;
         line-height: 1.5em;
         color: #333;
