@@ -1,16 +1,16 @@
 body {
-  margin: 0;
-  background: #f3f3f3;
-  overflow-x: hidden;
-  padding: 0%;
+    margin: 0;
+    background: #f3f3f3;
+    overflow-x: hidden;
+    padding: 0%;
 }
-
 
 .hero {
     position: relative;
 }
-#text{
-    width: calc(100vw - 17px); 
+
+#text {
+    width: calc(100vw - 17px);
     font-style: oblique;
     text-align: center;
     color: red;
@@ -23,8 +23,10 @@ body {
     /* margin: auto; */
     background: rgba(17, 16, 16, 0.5)
 }
+
 /* allows the text to be transparent */
-#img2{
+
+#img2 {
     opacity: 1;
     background-size: contain;
     background-repeat: no-repeat;
@@ -34,100 +36,114 @@ body {
     width: 100%;
 }
 
-
 ul {
-margin:0px;
-padding:0px;
-list-style-type:none;
--webkit-backface-visibility: hidden; backface-visibility: hidden;  
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
+
 .var_nav {
-position:relative;
-background:#ccc; 
-width:300px;
-height:70px;
-margin-bottom:5px;
-display: inline-block;
+    position: relative;
+    background: #ccc;
+    width: 300px;
+    height: 70px;
+    margin-bottom: 5px;
+    display: inline-block;
 }
+
 .link_bg {
- width:70px;
- height:70px;
- position:absolute;
- background:rgb(0, 4, 255);
- color:#fff;
- z-index:2;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background: rgb(0, 4, 255);
+    color: #fff;
+    z-index: 2;
 }
+
 .link_bg i {
- position:relative;
+    position: relative;
 }
+
 .link_title {
-display: inline;
-position:absolute;
-width:100%;
-z-index:3;
-color:#fff;
+    display: inline;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    color: #fff;
 }
+
 .link_title:hover .icon {
--webkit-transform:rotate(360deg);
--moz-transform:rotate(360deg);
--o-transform:rotate(360deg);
--ms-transform:rotate(360deg);
-transform:rotate(360deg);  
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
+
 .var_nav:hover .link_bg {
-width:100%;
-background:rgb(31, 30, 24);
--webkit-transition: all 0.3s ease-in-out;
--moz-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
--ms-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;  
+    width: 100%;
+    background: rgb(31, 30, 24);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
+
 .var_nav:hover a {
-display: inline-block;
-font-weight:bold;
--webkit-transition:all .5s ease-in-out;
--moz-transition:all .5s ease-in-out; 
--o-transition:all .5s ease-in-out; 
--ms-transition:all .5s ease-in-out;
- transition:all .5s ease-in-out;  
+    display: inline-block;
+    font-weight: bold;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
-.icon
-{
-position:relative;
-width:85px;
-height:85px;
-text-align:center;
-color:#fff;
--webkit-transition:all .5s ease-in-out;
--moz-transition:all .5s ease-in-out; 
--o-transition:all .5s ease-in-out; 
--ms-transition:all .5s ease-in-out;   
-float:left;
-transition:all .5s ease-in-out;   
- 
+
+.icon {
+    position: relative;
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    float: left;
+    transition: all .5s ease-in-out;
 }
-.icon i{top:22px;position:relative;}
-a{
-display:block;
-position:absolute;
-float:left;
-font-family:arial;
-color:#fff;
-text-decoration:none;
-width:100%;
-height:70px;
-text-align:center;
+
+.icon i {
+    top: 22px;
+    position: relative;
 }
+
+a {
+    display: block;
+    position: absolute;
+    float: left;
+    font-family: arial;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
 span {
-margin-top:25px;
-display:block;
+    margin-top: 25px;
+    display: block;
 }
 
-
-@media screen and (max-height: 0px){
-    .sidenav {padding-top: 15px;}
+@media screen and (max-height: 0px) {
+    .sidenav {
+        padding-top: 15px;
+    }
 }
+
 .column-layout-container {
     display: flex;
     margin: 0 auto;
@@ -138,33 +154,35 @@ display:block;
     flex: 1;
     background-color: #fff;
     padding: 20px;
-    margin-right: 20px;   
+    margin-right: 20px;
     margin-bottom: 39.5%;
 }
 
-.img3{
-      margin-right: 32px;
-      width: 100%;
-      height: 80%;
+.img3 {
+    margin-right: 32px;
+    width: 100%;
+    height: 80%;
 }
+
 .second {
-display: flex;
-flex: 1;
-flex-direction: column;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
+
 .second-a {
     flex: 1;
     margin-bottom: 20px;
     background-color: #fff;
     text-align: center;
-
 }
+
 .second-b {
-    background-color:#fff;
+    background-color: #fff;
     flex: 1;
     margin-bottom: 20px;
-    
 }
+
 .second-c {
     background-color: purple;
     flex: 1;
@@ -178,7 +196,7 @@ flex-direction: column;
     text-align: right;
     width: 100%;
     padding-right: 1em;
-} 
+}
 
 #title {
     font-size: 3.5em;
@@ -187,237 +205,307 @@ flex-direction: column;
     font-weight: 400;
     line-height: 1.5em;
     text-align: left;
-    background-image: url( https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg) ;
+    background-image: url(https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg);
     padding-bottom: 20%;
-} */
+}
+
+*/
 /*changes h5 to blue*/
-#by{
+
+#by {
     color: rgb(0, 4, 255);
     font-size: 18px;
-} */
+}
+
+*/
 /*gives the paragraphs a unique font*/
-#stats{
-    font-family:'Times New Roman', Times, serif;
+
+#stats {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
     font-weight: inherit;
     font-style: italic;
 }
-  
-/*creates a rounded border*/
-  #about {
-      font-family: 'Abril Fatface';
-      text-align: center;
-      border: rgb(20, 18, 18);
-      border-style: groove;
-      border-radius: 5em;
-    }
 
-    /*style the paragraphs in the right column*/
-  #fancyp{
+/*creates a rounded border*/
+
+#about {
+    font-family: 'Abril Fatface';
+    text-align: center;
+    border: rgb(20, 18, 18);
+    border-style: groove;
+    border-radius: 5em;
+}
+
+/*style the paragraphs in the right column*/
+
+#fancyp {
     font-family: 'Abril Fatface';
     font-style: normal;
     font-size: 1.3em;
     font-weight: normal;
     line-height: 1.5em;
     color: #333;
-  }
-  /*give phrase a outstanding color of red */
-  #fix{
-      color: red;
-      font-size: 2em;
-      text-align: center;
-      line-height: 1.5em;
-  } 
-  
+}
 
-    .img4 {
-    
+/*give phrase a outstanding color of red */
+
+#fix {
+    color: red;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.img4 {}
+
+#underline {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer-container {
+    padding: -2px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+        background: #f3f3f3;
+        overflow-x: hidden;
+        padding: 0%;
     }
-
+    .hero {
+        position: relative;
+    }
+    #text {
+        width: calc(100vw - 17px);
+        font-style: oblique;
+        text-align: center;
+        color: red;
+        top: 5%;
+        /* margin-top: 5%; */
+        position: absolute;
+        font-size: 7.5em;
+        letter-spacing: 0.2em;
+        padding-top: 0.5px;
+        /* margin: auto; */
+        background: rgba(17, 16, 16, 0.5)
+    }
+    /* allows the text to be transparent */
+    #img2 {
+        opacity: 1;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background: url('https://accelerator-origin.kkomando.com/wp-content/uploads/2017/08/phone-repair.jpg');
+        height: 350px;
+        width: 100%;
+    }
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    .var_nav {
+        position: relative;
+        background: #ccc;
+        width: 300px;
+        height: 70px;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    .link_bg {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        background: rgb(0, 4, 255);
+        color: #fff;
+        z-index: 2;
+    }
+    .link_bg i {
+        position: relative;
+    }
+    .link_title {
+        display: inline;
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+        color: #fff;
+    }
+    .link_title:hover .icon {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    .var_nav:hover .link_bg {
+        width: 100%;
+        background: rgb(31, 30, 24);
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .var_nav:hover a {
+        display: inline-block;
+        font-weight: bold;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    .icon {
+        position: relative;
+        width: 85px;
+        height: 85px;
+        text-align: center;
+        color: #fff;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        float: left;
+        transition: all .5s ease-in-out;
+    }
+    .icon i {
+        top: 22px;
+        position: relative;
+    }
+    a {
+        display: block;
+        position: absolute;
+        float: left;
+        font-family: arial;
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+    }
+    span {
+        margin-top: 25px;
+        display: block;
+    }
+    @media screen and (max-height: 0px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+    }
+    .column-layout-container {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .first {
+        flex: 1;
+        background-color: #fff;
+        padding: 20px;
+        margin-right: -100%;
+        margin-bottom: 39.5%;
+    }
+    .img3 {
+        margin-right: 32px;
+        width: 100%;
+        height: 80%;
+    }
+    .second {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        margin-right: -100%;
+        margin-top: -35%;
+    }
+    .second-a {
+        flex: 1;
+        margin-bottom: 20px;
+        background-color: #fff;
+        text-align: center;
+    }
+    .second-b {
+        background-color: #fff;
+        flex: 1;
+        margin-bottom: 20px;
+    }
+    .header {
+        color: #333;
+        float: right;
+        font-size: 2.5em;
+        font-family: 'Rakkas';
+        text-align: right;
+        width: 100%;
+        padding-right: 1em;
+    }
+    #title {
+        font-size: 3.5em;
+        font-family: 'Lato', sans-serif;
+        color: #565656;
+        font-weight: 400;
+        line-height: 1.5em;
+        text-align: left;
+        background-image: url(https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg);
+        padding-bottom: 20%;
+    }
+    */
+    /*changes h5 to blue*/
+    #by {
+        color: rgb(0, 4, 255);
+        font-size: 18px;
+    }
+    */
+    /*gives the paragraphs a unique font*/
+    #stats {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3em;
+        font-weight: inherit;
+        font-style: italic;
+    }
+    /*creates a rounded border*/
+    #about {
+        font-family: 'Abril Fatface';
+        text-align: center;
+        border: rgb(20, 18, 18);
+        border-style: groove;
+        border-radius: 5em;
+    }
+    /*style the paragraphs in the right column*/
+    #fancyp {
+        font-family: 'Abril Fatface';
+        font-style: normal;
+        font-size: 1.3em;
+        font-weight: normal;
+        line-height: 1.5em;
+        color: #333;
+    }
+    /*give phrase a outstanding color of red */
+    #fix {
+        color: red;
+        font-size: 2em;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    .img4 {
+       
+        width: 100%;
+    }
     #underline {
         text-decoration: underline;
         font-weight: bold;
     }
-    
     .footer-container {
-      padding: -2px;
-      background-color: white;
-      text-align: center;
-      margin-top: 20px; 
-   
+        padding: -2px;
+        background-color: white;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: -100%;
     }
+}
 
-    @media (max-width: 600px) {
-        .column-layout-container {
-            display: flex;
-            margin: 0 auto;
-            flex-direction: column;
-        }
-            .first {
-                flex: 1;
-                background-color: #fff;
-                padding: 20px;
-                margin-right: 20px;   
-                margin-bottom: 39.5%;
-            }
-            
-            .img3{
-                  margin-right: 32px;
-                  width: 100%;
-                  height: 80%;
-            }
-            .second {
-            display: flex;
-            flex: 1;
-            flex-direction: column;
-            }
-            .second-a {
-                flex: 1;
-                margin-bottom: 20px;
-                background-color: #fff;
-                text-align: center;
-            
-            }
-            .second-b {
-                background-color:#fff;
-                flex: 1;
-                margin-bottom: 20px;
-                
-            }
-        }
-     
-
-    /*@media screen and (min-width: 600px) {
-      
-        #text {
-            width: calc(100% - 34px) !important; 
-        }
-        .header {
-            color: #333;
-            float: top;
-            font-size: 2.5em;
-            font-family: 'Rakkas';
-            text-align: right;
-            width: 100%;
-            padding-right: 1em;
-        }
-        
-          
-        /*creates a rounded border*/
-         /* #about {
-              font-family: 'Abril Fatface';
-              text-align: center;
-              border: rgb(20, 18, 18);
-              border-style: groove;
-              border-radius: 5em;
-            }
-            .firstimg {
-              background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrrF23IZwwHEBAWMyu7Dty5QJvZ4_HqBg7XMZRVwa0vKll87dO);
-              width: 100%;
-              height: 180%;
-              padding: 22px;
-              padding-bottom: 50%;
-              margin-right: 32px;
-              background-repeat: no-repeat;
-              background-position: center;
-            }
-            /*style the paragraphs in the right column*/
-          /*#fancyp{
-            font-family: 'Abril Fatface';
-            font-style: normal;
-            font-size: 1.3em;
-            font-weight: normal;
-            line-height: 1.5em;
-            color: #333;
-          }
-          /*give phrase a outstanding color of red */
-         /* #fix{
-              color: red;
-              font-size: 2em;
-              text-align: center;
-              line-height: 1.5em;
-          } 
-          
-          .img3{
-           background-image: url(https://irp-cdn.multiscreensite.com/d708ae7e/dms3rep/multi/mobile/1-Logo_PhoneDoctor.png);
-           height: 569px;
-            margin-left: -60px;
-            /* padding-right: 12%; */
-            /* width: 100%; 
-            background-repeat: no-repeat;
-            background-position: center;
-        
-          }
-        
-          /*.leftcolumn {   
-           float: left;
-            width: 56%;
-          }
-          
-          /* Right column */
-          /*.rightcolumn {
-            float: right;
-            width: 42.3%;
-            padding: 0 0px;
-            padding-left: 1.7%;
-            /*margin: 280px -97px 40px 35px;
-          }*/
-          
-          /*.card {
-            background-color: white;
-            padding: 20px;
-            margin-top: 17px;
-          }
-          .row {
-            display: inline-block;
-          }
-           .row:after {
-            padding: 0;
-            margin: 0;
-            
-            -webkit-flex-flow: row wrap;
-            justify-content: space-around;
-            
-          } 
-          .wrapper{
-              padding: 5px;
-              max-width: 960px;
-              width: 100%;
-              margin: 20px auto;
-            }
-            .img4 {
-                background-image: url("../image/iphone for repair.png");
-                background-size: contain;  
-                background-repeat: no-repeat;
-                background-position: center;
-                height: 450px;
-                width: 100%;
-                
-                
-            }
-            #underline {
-                text-decoration: underline;
-                font-weight: bold;
-            }
-            /*.img5 {
-                background-image: url(https://media.mercola.com/assets/images/shop/low-price-badge.png);
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center;
-                height: 150px;
-                width: 100%;
-                float: left;
-            }
-            */
-            
-           /* footer {
-              padding: -2px;
-              background-color: white;
-              text-align: center;
-              margin-top: 20px; 
-              /*transform: translateY(-983%);
-            }
-    
-    }*/
-
-  
