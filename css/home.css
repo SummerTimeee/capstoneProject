@@ -454,6 +454,7 @@ span {
         border-style: groove;
         border-color: black;
         text-align: center;
+        border-width: thick;
     }
     #title {
         font-size: 3.5em;
@@ -485,6 +486,7 @@ span {
         text-align: center;
         border: rgb(20, 18, 18);
         border-style: groove;
+        border-width: thick;
     }
     /*style the paragraphs in the right column*/
     #fancyp {
