@@ -501,10 +501,9 @@ span {
         font-weight: bold;
     }
     .footer-container {
-        padding: -2px;
         background-color: white;
         text-align: center;
-        margin-top: 20hpx;
+        margin-top: -35%;
         margin-right: -100%;
     }
 }
