@@ -176,6 +176,7 @@ span {
     border: rgb(20, 18, 18);
     border-style: groove;
     border-radius: 5em;
+    font-size: 2em;
 }
 .second-b {
     background-color: #fff;
