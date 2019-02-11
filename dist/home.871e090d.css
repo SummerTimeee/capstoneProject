@@ -5,38 +5,18 @@ body {
     padding: 0%;
 }
 
-.hero {
-    position: relative;
-}
-.img5{
-   
+.img5 {
+    height: 8.5em;
 }
 
-#text {
-    width: calc(100vw - 17px);
-    font-style: oblique;
-    text-align: center;
-    color: red;
-    top: 5%;
-    /* margin-top: 5%; */
-    position: absolute;
-    font-size: 7.5em;
-    letter-spacing: 0.2em;
-    padding-top: 0.5px;
-    /* margin: auto; */
-    background: rgba(17, 16, 16, 0.5)
-}
-
-/* allows the text to be transparent */
-
-#img2 {
-    opacity: 1;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background: url('https://accelerator-origin.kkomando.com/wp-content/uploads/2017/08/phone-repair.jpg');
-    height: 350px;
+.header {
+    color: #333;
+    float: top;
+    font-size: 2.5em;
+    font-family: 'Rakkas';
+    text-align: right;
     width: 100%;
+    padding-right: 1em;
 }
 
 ul {
@@ -166,6 +146,16 @@ span {
     width: 100%;
     height: 80%;
 }
+/*style the paragraphs in the right column*/
+
+#fancyp {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 1.5em;
+    color: #333;
+}
 
 .second {
     display: flex;
@@ -180,60 +170,6 @@ span {
     text-align: center;
 }
 
-.second-b {
-    background-color: #fff;
-    flex: 1;
-    margin-bottom: 20px;
-}
-
-.second-c {
-    background-color: purple;
-    flex: 1;
-}
-
-.header {
-    color: #333;
-    float: top;
-    font-size: 2.5em;
-    font-family: 'Rakkas';
-    text-align: right;
-    width: 100%;
-    padding-right: 1em;
-}
-
-
-
-#title {
-    font-size: 3.5em;
-    font-family: 'Lato', sans-serif;
-    color: #565656;
-    font-weight: 400;
-    line-height: 1.5em;
-    text-align: left;
-    background-image: url(https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg);
-    padding-bottom: 20%;
-}
-
-*/
-/*changes h5 to blue*/
-
-#by {
-    color: rgb(0, 4, 255);
-    font-size: 18px;
-}
-
-*/
-/*gives the paragraphs a unique font*/
-
-#stats {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.3em;
-    font-weight: inherit;
-    font-style: italic;
-}
-
-/*creates a rounded border*/
-
 #about {
     font-family: 'Abril Fatface';
     text-align: center;
@@ -241,33 +177,24 @@ span {
     border-style: groove;
     border-radius: 5em;
 }
-
-/*style the paragraphs in the right column*/
-
-#fancyp {
-    font-family: 'Abril Fatface';
-    font-style: normal;
-    font-size: 1.3em;
-    font-weight: normal;
-    line-height: 1.5em;
-    color: #333;
+.second-b {
+    background-color: #fff;
+    flex: 1;
+    margin-bottom: 20px;
 }
 
-/*give phrase a outstanding color of red */
+#underline {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 
 #fix {
     color: red;
     font-size: 2em;
     text-align: center;
     line-height: 1.5em;
-}
-
-.img4 {}
-
-#underline {
-    text-decoration: underline;
-    font-weight: bold;
-}
+} 
 
 .footer-container {
     padding: -2px;
@@ -276,16 +203,51 @@ span {
     margin-top: 20px;
 }
 
-@media (max-width: 600px) {
-    body {
-        margin: 0;
-        background: #f3f3f3;
-        overflow-x: hidden;
-        padding: 0%;
-    }
-    .hero {
-        position: relative;
 
+/*#text {
+    width: calc(100vw - 17px);
+    font-style: oblique;
+    text-align: center;
+    color: red;
+    top: 5%;
+    position: absolute;
+    font-size: 7.5em;
+    letter-spacing: 0.2em;
+    padding-top: 0.5px;
+    background: rgba(17, 16, 16, 0.5)
+}*/
+
+
+
+/*#img2 {
+    opacity: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url('https://accelerator-origin.kkomando.com/wp-content/uploads/2017/08/phone-repair.jpg');
+    height: 350px;
+    width: 100%;
+}*/
+
+/*#title {
+    font-size: 3.5em;
+    font-family: 'Lato', sans-serif;
+    color: #565656;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-align: left;
+    background-image: url(https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg);
+    padding-bottom: 20%;
+}*/
+
+@media (max-width: 600px) {
+   
+    .hero {
+        position: absolute;
+    }
+    .img5 {
+        height: 60px;
+        float: left;
     }
     #text {
         width: calc(100vw - 17px);
@@ -442,16 +404,17 @@ span {
     .header {
         color: #333;
         float: top;
-        font-size: 3.5em;
+        font-size: 2.5em;
         font-family: 'Rakkas';
         text-align: right;
         width: 100%;
-        padding-right: 1em;
     }
-    h2{
+
+    h2 {
         font-size: 3.5em;
     }
-    h3{
+
+    h3 {
         font-size: 3.5em;
         border-radius: 9em;
         border-style: groove;
@@ -469,13 +432,13 @@ span {
         background-image: url(https://www.nuorder.com/wp-content/uploads/2015/10/NuORDER_Blog_Mobile-Stats_02.jpg);
         padding-bottom: 20%;
     }
-    */
+    
     /*changes h5 to blue*/
     #by {
         color: rgb(0, 4, 255);
         font-size: 18px;
     }
-    */
+    
     /*gives the paragraphs a unique font*/
     #stats {
         font-family: 'Times New Roman', Times, serif;
@@ -507,15 +470,18 @@ span {
         text-align: center;
         line-height: 1.5em;
     }
+
     .img4 {
-       
         width: 100%;
     }
+
 
     #underline {
         text-decoration: underline;
         font-weight: bold;
     }
+
+
     .footer-container {
         background-color: white;
         text-align: center;
@@ -523,4 +489,3 @@ span {
         margin-right: -100%;
     }
 }
-
