@@ -249,6 +249,7 @@ span {
     .img5 {
         height: 60px;
         float: left;
+        position: absolute;
     }
     #text {
         width: calc(100vw - 17px);
