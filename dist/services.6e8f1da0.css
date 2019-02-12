@@ -174,22 +174,21 @@ ul.accordion li.bg9{
 @media screen and (max-width: 500px) {
 h3{
     font-size: 5em;
-    width: 170%;
+    width: 173%;
 }
 
 ul.accordion{
     list-style:none;   
     position:absolute;
     width: 100%;
-    right:5px;
-    top:0px;
+    right:25px;
     font-family: Cambria, serif;
     font-size: 16px;
     font-style: italic;
     line-height: 1.5em;
     padding-top: 20%;
     display: grid;
-    top: 50%;
+    top: 60%;
   }
   ul.accordion li{
     float:right;
