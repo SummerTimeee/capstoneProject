@@ -174,7 +174,7 @@ ul.accordion li.bg9{
 @media screen and (max-width: 500px) {
 h3{
     font-size: 5em;
-    width: 168%;
+    width: 170%;
 }
 
 ul.accordion{
@@ -189,7 +189,7 @@ ul.accordion{
     line-height: 1.5em;
     padding-top: 20%;
     display: grid;
-    top: 60%;
+    top: 50%;
   }
   ul.accordion li{
     float:right;
