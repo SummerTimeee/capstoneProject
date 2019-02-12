@@ -106,8 +106,8 @@ ul {
 
 a {
     display: block;
-    position: absolute;
-    float: left;
+    /* position: absolute; */
+    /* float: left; */
     font-family: arial;
     color: #fff;
     text-decoration: none;
