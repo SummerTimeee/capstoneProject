@@ -106,8 +106,7 @@ ul {
 
 a {
     display: block;
-    position: absolute;
-    float: left;
+
     font-family: arial;
     color: #fff;
     text-decoration: none;
@@ -364,11 +363,6 @@ span {
         margin-top: 25px;
         display: block;
     }
-    @media screen and (max-height: 0px) {
-        .sidenav {
-            padding-top: 15px;
-        }
-    }
     .column-layout-container {
         display: flex;
         margin: 0 auto;
@@ -378,6 +372,7 @@ span {
         flex: 1;
         background-color: #fff;
         padding: 20px;
+        margin-right: -100%;
         margin-bottom: 39.5%;
     }
     .img3 {
@@ -389,7 +384,8 @@ span {
         display: flex;
         flex: 1;
         flex-direction: column;
-        margin-top: -35%;
+        margin-right: -100%;
+        margin-top: -34%;
         margin-bottom: 39.5%;
     }
     .second-a {
@@ -400,6 +396,7 @@ span {
     .second-b {
         background-color: #fff;
         flex: 1;
+        margin-bottom: 1px;
     }
     h2 {
         font-size: 3.5em;
