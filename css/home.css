@@ -205,6 +205,11 @@ span {
     margin-top: 20px;
 }
 
+
+.footer-container img {
+    width: 80%;
+    max-width: 800px;
+}
 /*#text {
     width: calc(100vw - 17px);
     font-style: oblique;
@@ -391,8 +396,8 @@ span {
         flex: 1;
         flex-direction: column;
         /* margin-right: -100%; */
-        margin-top: -35%;
-        margin-bottom: 39.5%;
+        /* margin-top: -35%;
+        margin-bottom: 39.5%; */
     }
     .second-a {
         flex: 1;
@@ -470,7 +475,8 @@ span {
     .footer-container {
         background-color: white;
         text-align: center;
-        margin-top: -35%;
-        margin-right: -100%;
+        margin-top: 0;
+        /* margin-right: -100%; */
     }
+
 }
