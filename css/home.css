@@ -378,7 +378,6 @@ span {
         flex: 1;
         background-color: #fff;
         padding: 20px;
-        margin-right: -100%;
         margin-bottom: 39.5%;
     }
     .img3 {
@@ -390,7 +389,6 @@ span {
         display: flex;
         flex: 1;
         flex-direction: column;
-        margin-right: -100%;
         margin-top: -35%;
         margin-bottom: 39.5%;
     }
