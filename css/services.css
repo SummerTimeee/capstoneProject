@@ -32,7 +32,7 @@ h3 {
 
 ul.accordion{
   list-style:none;   
-  position:absolute;
+  position: relative;
   right:80px;
   top:0px;
   font-family: Cambria, serif;
@@ -174,20 +174,21 @@ ul.accordion li.bg9{
 @media screen and (max-width: 500px) {
 h3{
     font-size: 5em;
+    width: 173%;
 }
 
 ul.accordion{
     list-style:none;   
     position:absolute;
-    right:5px;
-    top:0px;
+    width: 100%;
+    right:11px;
     font-family: Cambria, serif;
     font-size: 16px;
     font-style: italic;
     line-height: 1.5em;
     padding-top: 20%;
     display: grid;
-    top: 60%;
+    top: 76%;
   }
   ul.accordion li{
     float:right;
