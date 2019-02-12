@@ -190,7 +190,7 @@ span {
 .second-b {
     background-color: #fff;
     flex: 1;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 #underline {
@@ -415,7 +415,7 @@ span {
             flex: 1;
             background-color: #fff;
             padding: 20px;
-            margin-right: -100%;
+            margin-right: -125%;
             margin-bottom: 39.5%;
         }
         .img3 {
@@ -427,7 +427,7 @@ span {
             display: flex;
             flex: 1;
             flex-direction: column;
-            margin-right: -100%;
+            margin-right: -125%;
             margin-top: -35%;
             margin-bottom: 39.5%;
         }
@@ -515,6 +515,6 @@ span {
             background-color: white;
             text-align: center;
             margin-top: -35%;
-            margin-right: -100%;
+            margin-right: -125%;
         }
     }
