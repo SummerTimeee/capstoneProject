@@ -19,15 +19,22 @@ h3 {
   animation-name: patients;
   animation-duration: 6s infinite;
 }
+.book {
+    font-size: 1em;
+    color: #333;
+    text-align: right;
+
+
+}
 
 @-webkit-keyframes patients {
-    from {background-color: hotpink;}
-    to {background-color: yellow;}
+    from {background-color: yellow;}
+    to {background-color: red;}
   }
 
   @keyframes patients {
-    from {background-color: hotpink;}
-    to {background-color: yellow;}
+    from {background-color: yellow;}
+    to {background-color: red;}
   }
 
 ul.accordion{

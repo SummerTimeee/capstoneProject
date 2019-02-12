@@ -242,8 +242,8 @@ span {
 @media (max-width: 600px) {
 
     .img5 {
-        float: center;
-        position: relative;
+            width: 100%;
+            height: auto;
     }
     .header {
         color: #333;
