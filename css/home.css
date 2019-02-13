@@ -19,6 +19,16 @@ body {
     width: 100%;
 }
 
+.logo {
+    width: 300px;
+    float: left;
+    overflow: auto;
+}
+.contact-info {
+    width: calc(100% - 301px);
+    text-align: right;
+    float: right;
+}
 ul {
     margin: 0px;
     padding: 0px;
@@ -109,6 +119,7 @@ a {
     font-family: arial;
     color: #fff;
     text-decoration: none;
+    text-align: center;
 }
 
 span {
@@ -198,6 +209,11 @@ span {
     background-color: white;
     text-align: center;
     margin-top: 20px;
+}
+
+.footer-container img {
+    width: 80%;
+    max-width: 800px;
 }
 
 /*#text {
@@ -457,5 +473,9 @@ span {
         background-color: white;
         text-align: center;
         margin-top: 0%;
+    }
+    .footer-container img {
+        width: 80%;
+        max-width: 800px;
     }
 }
