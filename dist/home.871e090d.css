@@ -385,7 +385,7 @@ span {
         background-color: #fff;
         padding: 20px;
         margin-bottom: 5%;
-        margin-right: -20px;
+        margin-right: -25px;
     }
     .img3 {
         margin-right: 32px;
@@ -396,7 +396,7 @@ span {
         display: flex;
         flex: 1;
         flex-direction: column;
-        margin-right: -20px;
+        margin-right: -25px;
     }
     .second-a {
         flex: 1;
@@ -476,6 +476,7 @@ span {
         background-color: white;
         text-align: center;
         margin-top: 5%;
+        margin-right: -25px;
     }
     .footer-container img {
         width: 80%;
