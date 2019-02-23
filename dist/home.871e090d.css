@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    width: 300px;
+    width: 301px;
     float: left;
     overflow: auto;
 }
@@ -118,15 +118,16 @@ ul {
 
 a {
     display: block;
-    /* position: absolute; */
-    /* float: left; */
+    position: absolute;
+    float: left; 
     font-family: arial;
     color: #fff;
     text-decoration: none;
-    /* width: 100%; */
-    /* height: 70px; */
+    width: 100%; 
+    height: 70px; 
     text-align: center;
 }
+
 
 span {
     margin-top: 25px;
@@ -144,7 +145,7 @@ span {
     margin: 0 auto;
     flex-direction: row;
 }
-
+/*first column & first parent column*/
 .first {
     flex: 1;
     background-color: #fff;
@@ -159,8 +160,8 @@ span {
     height: 80%;
 }
 
-/*style the paragraphs in the right column*/
 
+/* styles the paragraphs uniquely*/
 #fancyp {
     font-family: 'Abril Fatface';
     font-style: normal;
@@ -169,20 +170,20 @@ span {
     line-height: 1.5em;
     color: #333;
 }
-
+/*parent*/
 .second {
     display: flex;
     flex: 1;
     flex-direction: column;
 }
-
+/*second-child column*/
 .second-a {
     flex: 1;
     margin-bottom: 20px;
     background-color: #fff;
     text-align: center;
 }
-
+/*style border of 2nd & 3rd child columns*/
 #about {
     font-family: 'Abril Fatface';
     text-align: center;
@@ -191,18 +192,18 @@ span {
     border-radius: 5em;
     font-size: 2em;
 }
-
+/*third child column */
 .second-b {
     background-color: #fff;
     flex: 1;
     margin-bottom: 20px;
 }
-
+/*underlines text and informs you that it is responsive*/
 #underline {
     text-decoration: underline;
     font-weight: bold;
 }
-
+/* makes font big and red*/
 #fix {
     color: red;
     font-size: 2em;
@@ -261,6 +262,7 @@ span {
         width: 100%;
         float: none;
         display: block;
+        padding-bottom: 75px;
     }
     .contact-info {
         width: 100%;
@@ -268,7 +270,7 @@ span {
         display: block;
     }
 }
-
+/*makes everything mobile responsive*/
 @media (max-width: 600px) {
     .img5 {
         float: center;
@@ -294,7 +296,7 @@ span {
         /* margin: auto; */
         background: rgba(17, 16, 16, 0.5)
     }
-    /* allows the text to be transparent */
+
     #img2 {
         opacity: 1;
         background-size: contain;
@@ -378,17 +380,17 @@ span {
         top: 22px;
         position: relative;
     }
-    /* a {
+    a {
         display: block;
-        position: absolute;
-        float: left;
+        /* position: absolute; */
+        /* float: left; */
         font-family: arial;
         color: #fff;
         text-decoration: none;
-        width: 100%;
-        height: 70px;
+        /* width: 100%; */
+        /* height: 70px; */
         text-align: center;
-    } */
+    }
     span {
         margin-top: 25px;
         display: block;
@@ -403,6 +405,7 @@ span {
         margin: 0 auto;
         flex-direction: column;
     }
+    /*first parent column*/
     .first {
         flex: 1;
         background-color: #fff;
@@ -416,6 +419,7 @@ span {
         width: 100%;
         height: 80%;
     }
+    /*second parent column*/
     .second {
         display: flex;
         flex: 1;
@@ -425,11 +429,13 @@ span {
         /* margin-top: -35%;
         margin-bottom: 39.5%; */
     }
+    /*second child column*/
     .second-a {
         flex: 1;
         background-color: #fff;
         text-align: center;
     }
+    /*third child column*/
     .second-b {
         background-color: #fff;
         flex: 1;
@@ -476,7 +482,7 @@ span {
         border-style: groove;
         border-width: thick;
     }
-    /*style the paragraphs in the right column*/
+    /*style the paragraphs in the  columns*/
     #fancyp {
         font-family: 'Abril Fatface';
         font-style: normal;
