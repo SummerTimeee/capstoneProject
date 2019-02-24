@@ -202,8 +202,8 @@ ul.accordion li.bg9 {
 
 @media screen and (max-width: 500px) {
     h3 {
-        font-size: 5em;
-        width: 100%;
+        font-size: 3em;
+        position: relative;
     }
     ul.accordion {
         list-style: none;
