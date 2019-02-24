@@ -1,6 +1,7 @@
-body{
+body {
     background-color: #333;
 }
+
 h3 {
     text-align: center;
     font-family: Cambria, serif;
@@ -9,132 +10,144 @@ h3 {
     border: #333;
     border-style: solid;
     width: 100%;
-  height: 50%;
-  letter-spacing: 0.5vw;
-  background-color: white;
-  -webkit-animation-name: patients; 
-  -webkit-animation-duration: 4s; 
-  animation: pulse 5s infinite;
-  animation-iteration-count: infinite;
-  animation-name: patients;
-  animation-duration: 6s infinite;
+    height: 50%;
+    letter-spacing: 0.5vw;
+    background-color: white;
+    -webkit-animation-name: patients;
+    -webkit-animation-duration: 4s;
+    animation: pulse 5s infinite;
+    animation-iteration-count: infinite;
+    animation-name: patients;
+    animation-duration: 6s infinite;
 }
+
 .book {
     font-size: 1em;
     color: #333;
     text-align: right;
-
-
 }
 
 @-webkit-keyframes patients {
-    from {background-color: yellow;}
-    to {background-color: red;}
-  }
-
-  @keyframes patients {
-    from {background-color: yellow;}
-    to {background-color: red;}
-  }
-
-ul.accordion{
-  list-style:none;   
-  position: relative;
-  right:80px;
-  top:0px;
-  font-family: Cambria, serif;
-  font-size: 16px;
-  font-style: italic;
-  line-height: 1.5em;
-  padding-top: 20%;
-  top: 10%;
-}
-ul.accordion li{
-  float:right;
-  width:90px;
-  height:556px;
-  display:inline-block;
-  border-right:2px solid #fff;
-  border-bottom:2px solid #fff;
-  background-color:#fff;
-  background-repeat:no-repeat;
-  background-position:center center;
-  position:relative;
-  overflow:hidden;
-  cursor:pointer;
-  -moz-box-shadow:1px 3px 15px #555;
-  -webkit-box-shadow:1px 3px 15px #555;
-  box-shadow:1px 3px 15px #555;
+    from {
+        background-color: yellow;
+    }
+    to {
+        background-color: red;
+    }
 }
 
-ul.accordion li .heading{
-  background-color:#fff;
-  padding:10px;
-  margin-top:60px;
-  opacity:0.9;
-  text-transform:uppercase;
-  font-style:normal;
-  font-weight:bold;
-  letter-spacing:1px;
-  font-size:14px;
-  color:#444;
-  text-align:center;
-  text-shadow:-1px -1px 1px #ccc;
-}
-ul.accordion li .description{
-  position:absolute;
-  width:480px;
-  height:180px;
-  bottom:0px;
-  left:0px;
-  display:none;
-  background: rgba(255, 255,255, 0.8);
-
-}
-ul.accordion li .description h2{
-  text-transform:uppercase;
-  font-style:normal;
-  font-weight:bold;
-  letter-spacing:1px;
-  font-size:45px;
-  color:rgb(10, 8, 8);
-  text-align:left;
-  margin:11px 0px 15px 20px;
-  text-shadow:-1px -1px 1px #ccc;
-}
-ul.accordion li .description p{
-  line-height:14px;
-  margin:10px 22px;
-  font-family: 'Rakkas';
-  font-size: 22px;
-  font-style: initial;
-  font-weight: bold;
-  text-transform: none;
-  letter-spacing: normal;
-  line-height: 1.6em;
-}
-ul.accordion li .description a{
-  position:absolute;
-  bottom:5px;
-  left:20px;
-  text-transform:uppercase;
-  font-style:normal;
-  font-size:11px;
-  text-decoration:none;
-  color:#888;
-}
-ul.accordion li .description a:hover{
-  color:#333;
-  text-decoration:underline;
+@keyframes patients {
+    from {
+        background-color: yellow;
+    }
+    to {
+        background-color: red;
+    }
 }
 
-ul.accordion li .bgDescription{
-  height:340px;
-  position:absolute;
-  bottom:0px;
-  left:0px;
-  width:100%;
-  display:none;
+ul.accordion {
+    list-style: none;
+    position: relative;
+    right: 80px;
+    top: 0px;
+    font-family: Cambria, serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5em;
+    padding-top: 20%;
+    top: 10%;
+}
+
+ul.accordion li {
+    float: right;
+    width: 90px;
+    height: 556px;
+    display: inline-block;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -moz-box-shadow: 1px 3px 15px #555;
+    -webkit-box-shadow: 1px 3px 15px #555;
+    box-shadow: 1px 3px 15px #555;
+}
+
+ul.accordion li .heading {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 60px;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    text-shadow: -1px -1px 1px #ccc;
+}
+
+ul.accordion li .description {
+    position: absolute;
+    width: 480px;
+    height: 180px;
+    bottom: 0px;
+    left: 0px;
+    display: none;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+ul.accordion li .description h2 {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 45px;
+    color: rgb(10, 8, 8);
+    text-align: left;
+    margin: 11px 0px 15px 20px;
+    text-shadow: -1px -1px 1px #ccc;
+}
+
+ul.accordion li .description p {
+    line-height: 14px;
+    margin: 10px 22px;
+    font-family: 'Rakkas';
+    font-size: 22px;
+    font-style: initial;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: normal;
+    line-height: 1.6em;
+}
+
+ul.accordion li .description a {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 11px;
+    text-decoration: none;
+    color: #888;
+}
+
+ul.accordion li .description a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+ul.accordion li .bgDescription {
+    height: 340px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    display: none;
 }
 
 /*@media only screen
@@ -150,142 +163,146 @@ and (-webkit-min-device-pixel-ratio: 2) {
  
   }
 }*/
-ul.accordion li.bg1{
-    background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972);
+
+ul.accordion li.bg1 {
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972);
 }
-ul.accordion li.bg2{
-    background-image:url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-spgray-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347735544);
+
+ul.accordion li.bg2 {
+    background-image: url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-spgray-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347735544);
 }
-ul.accordion li.bg3{
-    background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129);
+
+ul.accordion li.bg3 {
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129);
 }
-ul.accordion li.bg4{
-    background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712);
+
+ul.accordion li.bg4 {
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712);
 }
-ul.accordion li.bg5{
-    background-image:url(https://trademe.tmcdn.co.nz/photoserver/full/909042584.jpg);
+
+ul.accordion li.bg5 {
+    background-image: url(https://trademe.tmcdn.co.nz/photoserver/full/909042584.jpg);
 }
-ul.accordion li.bg6{
-    background-image:url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430090682);
+
+ul.accordion li.bg6 {
+    background-image: url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430090682);
 }
-ul.accordion li.bg7{
-    background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129);
+
+ul.accordion li.bg7 {
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129);
 }
-ul.accordion li.bg8{
-    background-image:url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-rosegold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430147951);
+
+ul.accordion li.bg8 {
+    background-image: url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-rosegold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430147951);
 }
-ul.accordion li.bg9{
-    background-image:url(https://images-na.ssl-images-amazon.com/images/I/61nFOTQPzEL._SX569_.jpg);
+
+ul.accordion li.bg9 {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61nFOTQPzEL._SX569_.jpg);
 }
 
 @media screen and (max-width: 500px) {
-h3{
-    font-size: 5em;
-    width: 173%;
-}
-
-ul.accordion{
-    list-style:none;   
-    position:absolute;
-    width: 100%;
-    right:11px;
-    font-family: Cambria, serif;
-    font-size: 16px;
-    font-style: italic;
-    line-height: 1.5em;
-    padding-top: 20%;
-    display: grid;
-    top: 76%;
-  }
-  ul.accordion li{
-    float:right;
-    width:90px;
-    height:556px;
-    display:inline-block;
-    border-right:2px solid #fff;
-    border-bottom:2px solid #fff;
-    background-color:#fff;
-    background-repeat:no-repeat;
-    background-position:center center;
-    position:relative;
-    overflow:hidden;
-    cursor:pointer;
-    -moz-box-shadow:1px 3px 15px #555;
-    -webkit-box-shadow:1px 3px 15px #555;
-    box-shadow:1px 3px 15px #555;
-  }
-  
-  ul.accordion li .heading{
-    background-color:#fff;
-    padding:10px;
-    margin-top:60px;
-    opacity:0.9;
-    text-transform:uppercase;
-    font-style:normal;
-    font-weight:bold;
-    letter-spacing:1px;
-    font-size:14px;
-    color:#444;
-    text-align:center;
-    text-shadow:-1px -1px 1px #ccc;
-  }
-  ul.accordion li .description{
-    position:absolute;
-    width:480px;
-    height:180px;
-    bottom:0px;
-    left:0px;
-    display:none;
-    background: rgba(255, 255,255, 0.8);
-  
-  }
-  ul.accordion li .description h2{
-    text-transform:uppercase;
-    font-style:normal;
-    font-weight:bold;
-    letter-spacing:1px;
-    font-size:45px;
-    color:rgb(10, 8, 8);
-    text-align:left;
-    margin:11px 0px 15px 20px;
-    text-shadow:-1px -1px 1px #ccc;
-  }
-  ul.accordion li .description p{
-    line-height:14px;
-    margin:10px 22px;
-    font-family: 'Rakkas';
-    font-size: 22px;
-    font-style: initial;
-    font-weight: bold;
-    text-transform: none;
-    letter-spacing: normal;
-    line-height: 1.6em;
-  }
-  ul.accordion li .description a{
-    position:absolute;
-    bottom:5px;
-    left:20px;
-    text-transform:uppercase;
-    font-style:normal;
-    font-size:11px;
-    text-decoration:none;
-    color:#888;
-  }
-  ul.accordion li .description a:hover{
-    color:#333;
-    text-decoration:underline;
-  }
-  
-  ul.accordion li .bgDescription{
-    height:340px;
-    position:absolute;
-    bottom:0px;
-    left:0px;
-    width:100%;
-    display:none;
-  }
-  
-  /*@media only screen
+    h3 {
+        font-size: 5em;
+        width: 100%;
+    }
+    ul.accordion {
+        list-style: none;
+        position: absolute;
+        width: 100%;
+        right: 11px;
+        font-family: Cambria, serif;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 1.5em;
+        padding-top: 20%;
+        display: grid;
+        top: 76%;
+    }
+    ul.accordion li {
+        float: right;
+        width: 90px;
+        height: 556px;
+        display: inline-block;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        -moz-box-shadow: 1px 3px 15px #555;
+        -webkit-box-shadow: 1px 3px 15px #555;
+        box-shadow: 1px 3px 15px #555;
+    }
+    ul.accordion li .heading {
+        background-color: #fff;
+        padding: 10px;
+        margin-top: 60px;
+        opacity: 0.9;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 14px;
+        color: #444;
+        text-align: center;
+        text-shadow: -1px -1px 1px #ccc;
+    }
+    ul.accordion li .description {
+        position: absolute;
+        width: 480px;
+        height: 180px;
+        bottom: 0px;
+        left: 0px;
+        display: none;
+        background: rgba(255, 255, 255, 0.8);
+    }
+    ul.accordion li .description h2 {
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 45px;
+        color: rgb(10, 8, 8);
+        text-align: left;
+        margin: 11px 0px 15px 20px;
+        text-shadow: -1px -1px 1px #ccc;
+    }
+    ul.accordion li .description p {
+        line-height: 14px;
+        margin: 10px 22px;
+        font-family: 'Rakkas';
+        font-size: 22px;
+        font-style: initial;
+        font-weight: bold;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.6em;
+    }
+    ul.accordion li .description a {
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+        text-transform: uppercase;
+        font-style: normal;
+        font-size: 11px;
+        text-decoration: none;
+        color: #888;
+    }
+    ul.accordion li .description a:hover {
+        color: #333;
+        text-decoration: underline;
+    }
+    ul.accordion li .bgDescription {
+        height: 340px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        display: none;
+    }
+    /*@media only screen
   and (min-device-width: 100%)
   and (max-device-width: 100%)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -298,32 +315,31 @@ ul.accordion{
    
     }
   }*/
-  ul.accordion li.bg1{
-      background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972);
-  }
-  ul.accordion li.bg2{
-      background-image:url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-spgray-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347735544);
-  }
-  ul.accordion li.bg3{
-      background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129);
-  }
-  ul.accordion li.bg4{
-      background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712);
-  }
-  ul.accordion li.bg5{
-      background-image:url(https://trademe.tmcdn.co.nz/photoserver/full/909042584.jpg);
-  }
-  ul.accordion li.bg6{
-      background-image:url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430090682);
-  }
-  ul.accordion li.bg7{
-      background-image:url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129);
-  }
-  ul.accordion li.bg8{
-      background-image:url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-rosegold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430147951);
-  }
-  ul.accordion li.bg9{
-      background-image:url(https://images-na.ssl-images-amazon.com/images/I/61nFOTQPzEL._SX569_.jpg);
-  }
-  
+    ul.accordion li.bg1 {
+        background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-gold-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347727972);
+    }
+    ul.accordion li.bg2 {
+        background-image: url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone8/plus/iphone8-plus-spgray-select-2018?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1522347735544);
+    }
+    ul.accordion li.bg3 {
+        background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129);
+    }
+    ul.accordion li.bg4 {
+        background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-gold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430108712);
+    }
+    ul.accordion li.bg5 {
+        background-image: url(https://trademe.tmcdn.co.nz/photoserver/full/909042584.jpg);
+    }
+    ul.accordion li.bg6 {
+        background-image: url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-black-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430090682);
+    }
+    ul.accordion li.bg7 {
+        background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-silver-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430173129);
+    }
+    ul.accordion li.bg8 {
+        background-image: url(https://store.storeimages.cdn-apple.com/4981/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-rosegold-select-2016?wid=513&hei=556&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1472430147951);
+    }
+    ul.accordion li.bg9 {
+        background-image: url(https://images-na.ssl-images-amazon.com/images/I/61nFOTQPzEL._SX569_.jpg);
+    }
 }
