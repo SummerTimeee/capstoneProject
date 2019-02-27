@@ -202,9 +202,27 @@ ul.accordion li.bg9 {
 
 @media screen and (max-width: 500px) {
     h3 {
+        text-align: center;
+        font-family: Cambria, serif;
         font-size: 3em;
-        position: relative;
+        color: #333;
+        border: #333;
+        border-style: solid;
+        height: 50%;
+        letter-spacing: 0.5vw;
+        background-color: white;
+        -webkit-animation-name: patients;
+        -webkit-animation-duration: 4s;
+        animation: pulse 5s infinite;
+        animation-iteration-count: infinite;
+        animation-name: patients;
+        animation-duration: 6s infinite;
     }
+    .img5 {
+     width: 100%;
+    }
+
+    
     ul.accordion {
         list-style: none;
         position: absolute;
