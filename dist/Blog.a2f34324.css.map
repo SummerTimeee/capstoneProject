@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/Blog.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"Blog.a2f34324.css","sourceRoot":"..","sourcesContent":["\nh1{\n    font-size: 5em;\n    color: rgb(150, 149, 149);\n    text-align: center;\n}\np{\n    text-align: center;\n    font-size: 1.5em;\n    color: #333;\n}"]}
