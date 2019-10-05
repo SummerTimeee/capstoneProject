@@ -10,7 +10,10 @@ body {
     float: left;
     height: 97px;
 }
-
+#halloween {
+    width: 100%;
+    height: auto;
+}
 .header {
     color: #333;
     font-size: 1em;
