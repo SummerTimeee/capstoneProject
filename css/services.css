@@ -231,10 +231,6 @@ ul.accordion li.bg9 {
         animation-name: patients;
         animation-duration: 6s infinite;
     }
-    .img5 {
-     width: 100%;
-    }
-
     
     ul.accordion {
         list-style: none;
