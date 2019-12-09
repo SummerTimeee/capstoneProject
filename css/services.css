@@ -228,7 +228,7 @@ ul.accordion li.bg9 {
     }
     ul.accordion {
         list-style: none;
-        position: absolute;
+        /* position: absolute; */
         width: 100%;
         right: 11px;
         font-family: Cambria, serif;
